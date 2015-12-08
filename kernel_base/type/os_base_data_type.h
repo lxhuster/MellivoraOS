@@ -1,6 +1,8 @@
 /*
    define OS data type
  */
+#ifndef _OS_BASE_DATA_TYPE_H__
+#define _OS_BASE_DATA_TYPE_H__
 
 /* bit confirm unsigned data type define */
 typedef unsigned char u8_t;
@@ -23,3 +25,5 @@ typedef void * p_buf_t;
 
 /* regist type define */
 typedef u32_t regist_t;
+
+#endif
